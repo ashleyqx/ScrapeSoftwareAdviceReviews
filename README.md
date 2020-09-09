@@ -14,3 +14,5 @@ scrapy runspider spiders/SoftwareAdviceReviews.py -o output.csv
 ```
 
 This will scrape all the reviews from the myBaseUrl URL defined in the main program and store them in the output.csv file.
+
+In addition, the ReadReviewData.ipynb file has some starting code for reading the csv file and displaying the review score distributions.
